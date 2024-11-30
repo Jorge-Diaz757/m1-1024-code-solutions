@@ -5,12 +5,21 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What is the purpose of an HTML `form` element?
-
+  // HTML forms are pivotal for interacting with users, allowing for data collection, user authentication, feedback submission, and more
 - Give five examples of form control elements.
+  // < form >
+  < label >
+  < input >
+  < legend >
+  < fieldset >
 
 - Give three examples of `type` attribute values for HTML `<input>` elements.
+  // Text
+  Password
+  Username
 
 - Is an HTML `<input>` element a block element or an inline element?
+  // inline element
 
 ## Notes
 
