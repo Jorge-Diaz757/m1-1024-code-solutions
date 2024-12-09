@@ -58,4 +58,38 @@ function categorizeAcidity(pH) {
 }
 console.log('categorizeAcidity: ', categorizeAcidity(-1));
 //  introduceWarnerBro(name)
-function introduceWarnerBro(name) {}
+function introduceWarnerBro(name) {
+  switch (name) {
+    case 'yakko':
+    case 'wakko':
+      return "We're the warner brothers";
+    case 'dot':
+      return "I'm cute~";
+    case 'cody':
+    case 'minerva':
+      return 'Goodnight everybody!';
+    default:
+      return 'Invalid name';
+  }
+}
+console.log('introduceWarnerBro: ', introduceWarnerBro('dot'));
+//    recommendMovie(genre)
+function recommendMovie(genre) {
+  switch (genre) {
+    case 'action':
+      return 'Fast & Furious';
+    case 'comedy':
+      return 'Hotel Transylvania';
+    case 'horror':
+      return 'Evil Dead Rise';
+    case 'drama':
+      return 'Boys over flowers';
+    case 'musical':
+      return 'La La Land';
+    case 'sci-fi':
+      return 'Matrix';
+    default:
+      return 'Invalid genre';
+  }
+}
+console.log('recommendedMovie: ', recommendMovie('musical'));
