@@ -40,6 +40,9 @@
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
 
   /* your code here */
-  position: relative;
-  height: 23.5vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
